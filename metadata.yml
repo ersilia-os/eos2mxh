@@ -1,6 +1,6 @@
 Identifier: eos2mxh
 Slug: cc-signaturizer-3d-b
-Status: In progress
+Status: Ready
 Title: Chemical Checker Signaturizer 3D B1-5
 Description: Building on the Chemical Checker bioactivity signatures (available 
   as eos4u6p), the authors use the relation between stereoisomers and 
@@ -37,5 +37,13 @@ Source Code: https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d
 License: GPL-3.0-or-later
 Incorporation Date: '2025-06-25'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mxh.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos2mxh
+Docker Architecture: AMD64
 Model Size: 5456.0
 Environment Size: 1308.0
+Image Size: 9375.15
+Computational Performance 1: 39.4
+Computational Performance 2: 29.54
+Computational Performance 3: 98.77
+Computational Performance 4: 833.0
+Computational Performance 5: -1.0
