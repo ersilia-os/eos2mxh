@@ -40,7 +40,7 @@ S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mxh.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2mxh
 Docker Architecture: AMD64
 Model Size: 2728.0
-Environment Size: 1315.0
+Environment Size: 1316.0
 Image Size: 9375.15
 Computational Performance 1: 39.4
 Computational Performance 2: 29.54
