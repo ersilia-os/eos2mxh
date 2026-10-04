@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D B1-5
 
-Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties. This model corresponds to the Chemical Checker spaces B1, B2, B3, B4 and B5.
+Describes a compound through the target level of the Chemical Checker, whose five B spaces record mechanism of action, metabolic genes, crystal-structure binding, HTS activity profiles and binding assays. The underlying signaturizers were retrained on 3D structures after a survey of over a million compounds showed roughly 40% of stereoisomer pairs diverging in bioactivity, letting enantiomers receive distinct descriptors. Values are inferred rather than measured, and are most reliable for compounds resembling the assayed chemical space.
 
 This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 ### Output
 - **Output Dimension:** `640`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representation of a molecule
+- **Interpretation:** 640 stereochemistry-aware bioactivity features spanning the five target spaces of the Chemical Checker.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
