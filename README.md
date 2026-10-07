@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D B1-5
 
-Describes a compound through the target level of the Chemical Checker, whose five B spaces record mechanism of action, metabolic genes, crystal-structure binding, HTS activity profiles and binding assays. The underlying signaturizers were retrained on 3D structures after a survey of over a million compounds showed roughly 40% of stereoisomer pairs diverging in bioactivity, letting enantiomers receive distinct descriptors. Values are inferred rather than measured, and are most reliable for compounds resembling the assayed chemical space.
+Describes a compound through the target level of the Chemical Checker, whose five B spaces record mechanisms of action, metabolic genes, crystal structures, binding assays and high-throughput screening bioassays. The networks behind them fine-tune Uni-Mol on three-dimensional conformers, after a survey of over a million compounds showed roughly 40% of stereoisomer pairs diverging in their protein binding profiles, so enantiomers no longer collapse onto one descriptor. Values are inferred rather than measured and are most reliable for compounds resembling the assayed chemical space.
 
 This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 
