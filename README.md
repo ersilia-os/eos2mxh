@@ -2,7 +2,8 @@
 
 Describes a compound through the target level of the Chemical Checker, whose five B spaces record mechanisms of action, metabolic genes, crystal structures, binding assays and high-throughput screening bioassays. The networks behind them fine-tune Uni-Mol on three-dimensional conformers, after a survey of over a million compounds showed roughly 40% of stereoisomer pairs diverging in their protein binding profiles, so enantiomers no longer collapse onto one descriptor. Values are inferred rather than measured and are most reliable for compounds resembling the assayed chemical space.
 
-This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
+This model was incorporated on 2025-06-25.
+Last packaged on 2025-12-30.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 640 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2mxh](https://hub.docker.com/r/ersiliaos/eos2mxh)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mxh.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mxh.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2mxh_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2mxh_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2728`
